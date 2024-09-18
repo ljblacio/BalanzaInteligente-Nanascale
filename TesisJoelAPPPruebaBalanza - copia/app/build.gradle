@@ -1,0 +1,75 @@
+plugins {
+    //alias(libs.plugins.android.application)
+    id 'com.android.application'
+
+    //id 'com.google.gms.google-services'
+    //id("com.android.application") version "8.2.2" apply false
+    //id 'com.google.gms.google-services' version '4.4.2' apply false
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    namespace 'com.example.tesisjoelapppruebabalanza'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.tesisjoelapppruebabalanza"
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+
+dependencies {
+
+    // Import the Firebase BoM
+    //implementation platform(libs.firebase.bom)
+
+    // TODO: Add the dependencies for Firebase products you want to use
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation libs.com.google.firebase.firebase.analytics
+    implementation libs.constraintlayout
+    //implementation libs.cardview
+    implementation libs.material.v110
+
+    //implementation(libs.google.firebase.auth)
+
+    implementation(platform(libs.kotlin.bom))
+
+    implementation libs.graphview
+    //implementation libs.jplot
+    //implementation libs.jplot
+    //implementation libs.jplot.v12
+
+
+
+    //implementation libs.firebase.ui.firestore
+    //implementation libs.firebase.firestore
+    implementation libs.appcompat
+    //implementation libs.activity
+
+    implementation(libs.google.firebase.firestore)
+
+    //implementation libs.firebase.storage
+
+    implementation(platform(libs.firebase.bom.v3231))
+    implementation(libs.com.google.firebase.firebase.auth)
+    implementation libs.activity
+    implementation files('C:/Users/Daniella/Downloads/jplot-android-master/jplot-android-master/Library/jplot1.7.aar')
+}

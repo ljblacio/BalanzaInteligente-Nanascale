@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "940450761324",
+    "project_id": "pruebatesisjoelapp",
+    "storage_bucket": "pruebatesisjoelapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940450761324:android:ddf3bf966e1b68a1ce2649",
+        "android_client_info": {
+          "package_name": "com.example.tesisjoelapppruebabalanza"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj3BZHz15WjSG62XO3oRFKAfE-L7dK7l4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

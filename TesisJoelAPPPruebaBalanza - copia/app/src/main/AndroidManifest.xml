@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TesisJoelAPPPruebaBalanza"
+        tools:targetApi="31">
+        <activity
+            android:name=".perdidasCaj43lb"
+            android:exported="false" />
+        <activity
+            android:name=".perdidasCaja41lb"
+            android:exported="false" />
+        <activity
+            android:name=".gananciasAdministrador43lb"
+            android:exported="false" />
+        <activity
+            android:name=".gananciasAdministrador41lb"
+            android:exported="false" />
+        <activity
+            android:name=".perdidasCaja31lb"
+            android:exported="false" />
+        <activity
+            android:name=".jplotprueba"
+            android:exported="false" />
+        <activity
+            android:name=".ventasAdministrador43lb"
+            android:exported="false" />
+        <activity
+            android:name=".ventasAdministrador41lb"
+            android:exported="false" />
+        <activity
+            android:name=".gananciasAdministrador"
+            android:exported="false" />
+        <activity
+            android:name=".ventasAdministrador"
+            android:exported="false" />
+        <activity
+            android:name=".perfilAdministrador"
+            android:exported="false" />
+        <activity
+            android:name=".opcionesProductosAdministrador"
+            android:exported="false" />
+        <activity
+            android:name=".pesajetipocajaOperador"
+            android:exported="false" />
+        <activity
+            android:name=".productosOperador"
+            android:exported="false" />
+        <activity
+            android:name=".opcionesOperador"
+            android:exported="false" />
+        <activity
+            android:name=".pesajetipocaja"
+            android:exported="false" />
+        <activity
+            android:name=".productos"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroAdministrador"
+            android:exported="false" />
+        <activity
+            android:name=".LoginAdministrador"
+            android:exported="false" />
+        <activity
+            android:name=".ROL"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".prueba1"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

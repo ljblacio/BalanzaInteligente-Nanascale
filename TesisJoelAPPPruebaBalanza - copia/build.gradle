@@ -1,0 +1,23 @@
+buildscript {
+
+    repositories {
+        google();
+        mavenCentral();
+
+        maven{
+            url 'https://dl.cloudsmith.io/public/troysoft/jplot/maven/'
+        }
+    }
+
+    dependencies {
+
+        classpath libs.gradle
+        classpath libs.google.services
+
+    }
+}
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
